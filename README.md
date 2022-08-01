@@ -17,8 +17,7 @@
 
 
 #### **ON YOUR FORKED REPOSITORY**, copy the link by pressing the clipboard and on your local git, copy the link in. If you are unable, use the link below and replace `username` with your GithHub username :
-
-                                                   https://github.com/username/reponame.git
+                                                  https://github.com/username/reponame.git
 
 ### 3. Make your changes :
 
@@ -33,23 +32,21 @@
 
 #### Once you have made your changes, change your directory to repo : 
 
-![image](https://user-images.githubusercontent.com/70807684/128705003-66d04d60-4b68-4a8b-9dde-2075aa871516.png)
-
+`cd ClockApp` 
 
 #### And then add all :
 
-![image of add](https://user-images.githubusercontent.com/70807684/126148907-976f7f76-6b1d-411c-ae2d-c725f8e448ad.png)
+`git add -A`
 
 ### 5. Commit and push your changes : 
 
 #### Commit your changes with a message :
 
-![image of commiting](https://user-images.githubusercontent.com/70807684/126149237-1ebb9db3-f4b6-40d5-bf41-fa35fb33ba03.png)
+`git commit -m "I have made my changes"`
 
 #### And finally, push your changes :
 
-![image](https://user-images.githubusercontent.com/70807684/126149311-2d4a589e-e454-4346-b9dd-7a6692115896.png)
-
+git push
 
 ### 6. Make a pull request :
 
