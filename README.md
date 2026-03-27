@@ -1,68 +1,16 @@
-# CodingContributorsLair Basic-Mini-Apps -  Clock App
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+# React + Vite
 
- This is a Clock App that was originally made by [AvidCoder101](https://github.com/AvidCoder101). Suitable for beginners who are starting out in coding and Github, and so you can use the code to guide you if you wish :)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## How to contribute:
+Currently, two official plugins are available:
 
-### 1. Fork the repository :
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-![image of forking](https://user-images.githubusercontent.com/70807684/126146920-35e7b080-cf1d-4e85-80da-9f0640e4224f.png)
+## React Compiler
 
-#### Click the **Fork** button at the top right corner of the screen.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### 2. Clone the repository :
+## Expanding the ESLint configuration
 
-![image of cloning](https://user-images.githubusercontent.com/70807684/126147491-b96956c9-b88f-4b9a-bd2d-4fdc7bacffc7.png)
-
-
-#### **ON YOUR FORKED REPOSITORY**, copy the link by pressing the clipboard and on your local git, copy the link in. If you are unable, use the link below and replace `username` with your GithHub username :
-
-                                                   https://github.com/username/reponame.git
-
-### 3. Make your changes :
-
-#### To contribute, make your changes. Here are some ideas on what to do:
-
-- #### Improve the README
-- #### Change some of the styling
-- #### Improve the webpage
-- #### Make a better version!
-
-### 4. Add your changes 
-
-#### Once you have made your changes, change your directory to repo : 
-
-![image](https://user-images.githubusercontent.com/70807684/128705003-66d04d60-4b68-4a8b-9dde-2075aa871516.png)
-
-
-#### And then add all :
-
-![image of add](https://user-images.githubusercontent.com/70807684/126148907-976f7f76-6b1d-411c-ae2d-c725f8e448ad.png)
-
-### 5. Commit and push your changes : 
-
-#### Commit your changes with a message :
-
-![image of commiting](https://user-images.githubusercontent.com/70807684/126149237-1ebb9db3-f4b6-40d5-bf41-fa35fb33ba03.png)
-
-#### And finally, push your changes :
-
-![image](https://user-images.githubusercontent.com/70807684/126149311-2d4a589e-e454-4346-b9dd-7a6692115896.png)
-
-
-### 6. Make a pull request :
-
-#### Go back to your remote Forked version of the repo and click : 
-
-![image of pr](https://user-images.githubusercontent.com/70807684/126149695-9e302772-f52a-46a0-a8d4-e08a3e61d006.png)
-
-#### After, add a description to your PR and then click `Create Pull Request` :
-
-![image of pr](https://user-images.githubusercontent.com/70807684/126149967-1c1f4c7e-432d-41d0-9ef6-0f75281743f4.png)
-
-#### And that's it!
-
-### If you like this repo, give it a 🌟
-
-### Don't just fork, star 🌟 too.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
